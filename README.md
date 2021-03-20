@@ -13,7 +13,7 @@ Prerequisites
    + dynamodb:ListBackups
    + dynamodb:CreateBackup
    + dynamodb:DeleteBackup
-* If using CloudWatch, your Lambda function also needs the usual CloudWatch Logs role.
+* Use the usual CloudWatch Logs role for logging.
 * A cron job in CloudWatch to invoke the Lambda function at the desired times.
 
 ### To set up boto3 for development (Amazon Linux and similar):
