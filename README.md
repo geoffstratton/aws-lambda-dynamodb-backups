@@ -9,7 +9,7 @@ AWS Lambda script for creating backups of DynamoDB tables, and pruning old backu
 Prerequisites
 ---------------
 * The [boto3 SDK](https://aws.amazon.com/sdk-for-python/).
-* Ensure that the IAM Role attached to the Lambda function has a policy with ec2. If you want to create a custom policy, include:
+* Ensure that the IAM Role attached to the Lambda function has a policy with dynamodb. If you want to create a custom policy, include:
    + dynamodb:ListBackups
    + dynamodb:CreateBackup
    + dynamodb:DeleteBackup
